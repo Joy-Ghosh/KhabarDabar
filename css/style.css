@@ -284,7 +284,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .5rem 1rem;
+    padding: .7rem 1rem;
     background-color: var(--main_color2);
   }
   .cart_container .items_price .item p{
