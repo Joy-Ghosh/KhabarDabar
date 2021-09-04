@@ -12,7 +12,7 @@
   --custom_color1: #ebebeb;
 }
 body::-webkit-scrollbar {
-  width: .2em;
+  width: 0.2em;
 }
 body::-webkit-scrollbar-thumb {
   background-color: var(--main_color1);
@@ -132,6 +132,14 @@ body {
 
 /* mobile css */
 @media only screen and (max-width: 500px) {
+  body::-webkit-scrollbar {
+    width: 0.2em;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--main_color1);
+    /* outline: 1px solid slategrey; */
+  }
+
   body {
     background-color: var(--main_color4);
   }
