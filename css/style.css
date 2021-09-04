@@ -11,6 +11,13 @@
   --main_color5: #000000;
   --custom_color1: #ebebeb;
 }
+body::-webkit-scrollbar {
+  width: .2em;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--main_color1);
+  /* outline: 1px solid slategrey; */
+}
 
 /* webCss */
 body {
