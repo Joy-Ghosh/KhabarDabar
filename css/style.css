@@ -165,10 +165,10 @@ body {
 
 /* mobile css */
 @media only screen and (max-width: 500px) {
-  body::-webkit-scrollbar {
+  /* body::-webkit-scrollbar {
     width: 0.2em;
     height: 100vh;
-  }
+  } */
   body::-webkit-scrollbar-thumb {
     background-color: var(--main_color1);
     /* outline: 1px solid slategrey; */
