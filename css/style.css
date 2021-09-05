@@ -230,6 +230,7 @@ body {
     padding: 0rem .2rem 0rem 1rem;
   }
   .menu_group {
+    margin-right: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,7 +244,7 @@ body {
     cursor: pointer;
   }
   .custom_icon {
-    font-size: 1.8rem;
+    font-size: 1.rem;
     padding: 0.5rem;
     color: var(--main_color1);
     transition: all 0.5s ease;
