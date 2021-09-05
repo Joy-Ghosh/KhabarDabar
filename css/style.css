@@ -230,6 +230,7 @@ body {
     padding: 0rem .2rem 0rem 1rem;
   }
   .menu_group {
+    padding: 1rem;
     margin-right: 1rem;
     display: flex;
     justify-content: center;
