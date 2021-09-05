@@ -176,6 +176,7 @@ body {
 
   body {
     background-color: var(--main_color4);
+     height: 100vh;
   }
 
   /* logo */
@@ -224,7 +225,10 @@ body {
   .menu_heading h1 span {
     color: var(--main_color2);
   }
-
+  .menu_container .main_menu{
+    margin-bottom: 4rem;
+    padding: 0rem .2rem 0rem 1rem;
+  }
   .menu_group {
     display: flex;
     justify-content: center;
@@ -276,11 +280,11 @@ body {
     padding: 0px 12px;
   }
   .item_text .title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--main_color5);
   }
   .item_text .description {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--main_color3);
   }
 
