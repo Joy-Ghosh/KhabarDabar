@@ -176,7 +176,7 @@ body {
 
   body {
     background-color: var(--main_color4);
-     height: 100vh;
+    height: 100vh;
   }
 
   /* logo */
@@ -225,13 +225,14 @@ body {
   .menu_heading h1 span {
     color: var(--main_color2);
   }
-  .menu_container .main_menu{
+  .menu_container .main_menu {
     margin-bottom: 4rem;
-    padding: 0rem .2rem 0rem 1rem;
+    /* padding: 0rem 0.2rem 0rem 1rem; */
+    padding: 1.5rem;
   }
   .menu_group {
     /* padding: 1rem; */
-    margin: 0rem 1rem 0rem  0rem;
+    /* margin: 0rem 1rem 0rem 0rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,33 +349,65 @@ body {
     background-repeat: no-repeat;
   }
   .cupon_container {
-    height: 30vh;
+    height: 20vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    justify-content:start;
+    justify-content: start;
     padding: 0rem 1.5rem;
     margin-top: 1rem;
   }
-  .cupon_container .heading{
-    padding-bottom: .5rem;
+  .cupon_container .heading {
+    padding-bottom: 0.5rem;
   }
-  .cupon_container .cupon_filed{
-    padding-bottom: .5rem;
+  .cupon_container .cupon_filed {
+    padding-bottom: 0.5rem;
   }
-  .cupon_container .cupon_filed input{
+  .cupon_container .cupon_filed input {
     width: 100%;
-    padding: .5rem;
+    padding: 0.5rem;
     font-size: 1rem;
   }
-  .cupon_container button{
+  .cupon_container button {
     position: absolute;
     right: 1.5rem;
     color: var(--main_color4);
     background-color: var(--main_color2);
     border: none;
     border-radius: 5px;
-    padding: .5rem;
+    padding: 0.5rem;
+  }
+
+  /* price_container */
+  .price_container {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .price_box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .box_item {
+    display: flex;
+    border: 0.5px solid gray;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .box_item .left {
+    width: 100px;
+    margin-right: 8rem;
+    text-align: left;
+  }
+  .box_item .right {
+    width: 120px;
+    text-align: center;
+    border-left: 0.5px solid gray;
   }
 }
