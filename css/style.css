@@ -582,6 +582,7 @@ body {
 
   .stepper-wrapper {
     width: 100%;
+    color: var(--main_color3);
     margin-top: auto;
     display: flex;
     justify-content: space-between;
