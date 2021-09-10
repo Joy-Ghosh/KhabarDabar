@@ -272,11 +272,10 @@ body {
 @media only screen and (max-width: 500px) {
   body::-webkit-scrollbar {
     display: none;
-    
   }
 
   body {
-   -ms-overflow-style: none;
+    -ms-overflow-style: none;
     background-color: var(--main_color4);
     height: 100vh;
   }
@@ -559,10 +558,13 @@ body {
     /* border: .5px solid gray; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
+
   .receipt_container .order_box .icon img {
     height: 80px;
   }
-
+  .receipt_container .order_box .price{
+    padding-right: 2rem;
+  }
   /* Track */
 
   .receipt_container .track_order {
