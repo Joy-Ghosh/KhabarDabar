@@ -26,10 +26,7 @@ body::-webkit-scrollbar-thumb {
     width: 0.2em;
     height: 100vh;
   } */
-body::-webkit-scrollbar-thumb {
-  background-color: var(--main_color1);
-  /* outline: 1px solid slategrey; */
-}
+
 
 body {
   background-color: var(--main_color4);
