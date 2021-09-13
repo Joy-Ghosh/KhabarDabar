@@ -205,36 +205,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.cupon_container {
-  height: 20vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  justify-content: start;
-  padding: 0rem 1.5rem;
-  margin-top: 1rem;
-}
-.cupon_container .heading {
-  padding-bottom: 0.5rem;
-}
-.cupon_container .cupon_filed {
-  padding-bottom: 0.5rem;
-}
-.cupon_container .cupon_filed input {
-  width: 100%;
-  padding: 0.5rem;
-  font-size: 1rem;
-}
-.cupon_container button {
-  position: absolute;
-  right: 1.5rem;
-  color: var(--main_color4);
-  background-color: var(--main_color2);
-  border: none;
-  border-radius: 5px;
-  padding: 0.5rem;
-}
+
 
 /* price_container */
 .price_container {
@@ -453,9 +424,9 @@ body {
     height: 20vh;
     width: 100vw;
     display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     padding: 0rem 1.5rem;
     margin-top: 1rem;
   }
@@ -471,14 +442,24 @@ body {
     font-size: 1rem;
   }
   .cupon_container button {
-    position: absolute;
-    right: 1.5rem;
+    /* position: absolute;
+    right: 1.5rem; */
     color: var(--main_color4);
     background-color: var(--main_color2);
     border: none;
     border-radius: 5px;
-    padding: 0.5rem;
+    padding: 0.8rem 0.5rem;
   }
+.cupon_container .add_btn{
+  width: 150px;
+}
+.cupon_container .button2 button{
+  background-color: var(--main_color1);
+}
+.cupon_container .cancel_btn{
+  width: 150px;
+}
+  
   .cart .main_menu {
     margin-bottom: 0rem;
     
