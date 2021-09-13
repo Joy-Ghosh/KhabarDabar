@@ -479,14 +479,18 @@ body {
     border-radius: 5px;
     padding: 0.5rem;
   }
+  .cart .main_menu {
+    margin-bottom: 0rem;
+    
+  }
 
   /* price_container */
   .price_container {
-    height: 30vh;
+    height: 32vh;
     display: flex;
     flex-direction: column;
     padding: 0rem 1.5rem;
-    margin-top: 1rem;
+    margin-top: 0rem;
   }
 
   .price_box {
