@@ -15,7 +15,7 @@
 }
 body {
   color: var(--main_color3);
-  background-color: #ffdde7;
+  background-color: #ebebeb;
 }
 body::-webkit-scrollbar {
   width: 0.2em;
@@ -37,7 +37,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
-  background-color: var(--custom_color1);
+  background-color: var(--main_color4);
 }
 .topnavbar .logo {
  padding-left: 1rem;
@@ -75,7 +75,7 @@ body::-webkit-scrollbar-thumb {
 /* sidebar */
 .sidenavbar {
   display: block;
-  background-color: var(--custom_color1);
+  background-color: var(--main_color4);
   width: 200px;
   min-height: calc(100vh - 5rem);
 }
