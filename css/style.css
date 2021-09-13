@@ -57,9 +57,9 @@ body {
   overflow: hidden;
   background: #c04848;
   background: linear-gradient(rgb(100, 100, 100, 0.5), rgba(0, 0, 0, 0.9)),
-    url("/asset/banner/banner1.jpg");
+    url("/asset/banner/banner1.webp");
   background: linear-gradient(rgb(100, 100, 100, 0.5), rgba(0, 0, 0, 0.9)),
-    url("/asset/banner/banner1.jpg");
+    url("/asset/banner/banner1.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -199,9 +199,9 @@ body {
   overflow: hidden;
   background: #c04848;
   background: linear-gradient(rgb(100, 100, 100, 0.5), rgba(0, 0, 0, 0.9)),
-    url("/asset/banner/banner2.jpg");
+    url("/asset/banner/banner2.webp");
   background: linear-gradient(rgb(100, 100, 100, 0.5), rgba(0, 0, 0, 0.9)),
-    url("/asset/banner/banner2.jpg");
+    url("/asset/banner/banner2.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -301,9 +301,9 @@ body {
     overflow: hidden;
     background: #c04848;
     background: linear-gradient(rgb(100, 100, 100, 0.5), rgba(0, 0, 0, 0.9)),
-      url("/asset/banner/banner1.jpg");
+      url("/asset/banner/banner1.webp");
     background: linear-gradient(rgb(100, 100, 100, 0.5), rgba(0, 0, 0, 0.9)),
-      url("/asset/banner/banner1.jpg");
+      url("/asset/banner/banner1.webp");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -443,9 +443,9 @@ body {
     overflow: hidden;
     background: #c04848;
     background: linear-gradient(rgb(100, 100, 100, 0.5), rgba(0, 0, 0, 0.9)),
-      url("/asset/banner/banner2.jpg");
+      url("/asset/banner/banner2.webp");
     background: linear-gradient(rgb(100, 100, 100, 0.5), rgba(0, 0, 0, 0.9)),
-      url("/asset/banner/banner2.jpg");
+      url("/asset/banner/banner2.webp");
     background-size: cover;
     background-repeat: no-repeat;
   }
