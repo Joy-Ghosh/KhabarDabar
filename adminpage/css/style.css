@@ -40,22 +40,43 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--main_color4);
 }
 .topnavbar .logo {
- padding-left: 1rem;
+  padding-left: 1rem;
 }
 .topnavbar img {
   height: 80px;
 }
 .topnavbar .hamburger {
+  display: none;
   position: absolute;
   left: 13rem;
 }
-.topnavbar .hamburger i{
+.topnavbar .hamburger i {
+  font-size: 20px;
   cursor: pointer;
-  
+  transition: 0.3s ease-in-out;
 }
-.topnavbar .hamburger i:hover{
-    color: var(--main_color1);
+.topnavbar .hamburger i:hover {
+  color: var(--main_color1);
 }
+
+.topnavbar .close_btn i {
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--main_color3);
+  display: block;
+  transition: 0.3s ease-in-out;
+}
+
+.topnavbar .close_btn i:hover {
+  color: var(--main_color2);
+}
+
+.topnavbar .close_btn .closebtn {
+  position: absolute;
+  left: 13rem;
+  top: 2rem;
+}
+
 .topnavbar input {
   position: absolute;
   top: 1.5rem;
@@ -69,38 +90,46 @@ body::-webkit-scrollbar-thumb {
 
 /* bodycontainer */
 .bodycontainer {
-  padding: 5rem 0rem;
+  padding-top: 5rem;
 }
 
-/* sidebar */
-.sidenavbar {
-  display: block;
+/* sidenav */
+
+#mySidenav {
+  width: 250px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
   background-color: var(--main_color4);
-  width: 200px;
-  min-height: calc(100vh - 5rem);
-}
-.sidenavbar h2 {
-  color: var(--main_color2);
-}
-.sidenavbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 1rem;
-  width: calc(200px - 1rem);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5rem;
 }
 
-.sidenavbar li a {
-  position: relative;
-  display: block;
-  color: var(--main_color3);
-  padding: 1.3rem 1rem;
+.sidenav a {
+  padding: 18px 8px 8px 57px;
   text-decoration: none;
-}
-.sidenavbar li a i {
-  position: absolute;
-  right: 2rem;
+  font-size: 20px;
+  color: var(--main_color3);
+  display: block;
+  transition: 0.3s;
 }
 
-.sidenavbar li a:hover {
+.sidenav a:hover {
   color: var(--main_color2);
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+.new-wrapper {
+  height: 100%;
+  margin-left: 250px;
+  background-color: #ebebeb;
 }
