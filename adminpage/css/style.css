@@ -127,9 +127,9 @@ body::-webkit-scrollbar-thumb {
 #main {
   transition: margin-left 0.5s;
   padding: 16px;
+  min-height: calc(100vh - 5rem);
 }
 .new-wrapper {
-  height: 100%;
   margin-left: 250px;
   background-color: #ebebeb;
 }

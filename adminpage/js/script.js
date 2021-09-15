@@ -1,6 +1,7 @@
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
+  document.getElementsByClassName("new-wrapper").style.height = "100%";
   document.getElementById("btn1").style.display = "none";
   document.getElementById("btn2").style.display = "block";
 //   document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
