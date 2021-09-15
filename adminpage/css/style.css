@@ -133,3 +133,100 @@ body::-webkit-scrollbar-thumb {
   margin-left: 250px;
   background-color: #ebebeb;
 }
+.new-wrapper .wrapper_box {
+  display: flex;
+  justify-content: space-between;
+}
+.new-wrapper .wrapper_box .order_box {
+  height: 400px;
+  text-align: center;
+  width: 600px;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--main_color4);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 0.5rem;
+}
+.new-wrapper .wrapper_box .order_box .order_head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.new-wrapper .wrapper_box .order_box .order_head input {
+  
+  padding: 0.5rem;
+  text-align: center;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.082) 0px 3px 8px;
+}
+.new-wrapper .wrapper_box .order_box .orders::-webkit-scrollbar {
+  width: 0.2em;
+}
+.new-wrapper .wrapper_box .order_box .orders {
+  height: 330px;
+  text-align: center;
+  padding: 1rem 0rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.new-wrapper .wrapper_box .right_box {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 1rem;
+}
+.waiter_available {
+  text-align: center;
+  background-color: var(--main_color4);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 220px;
+}
+.waiter_available .waiters::-webkit-scrollbar {
+  width: 0.2em;
+}
+.waiter_available .waiters {
+  text-align: center;
+  height: 330px;
+  padding: 1rem 0rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.resto_table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.restro_status {
+  background-color: var(--main_color4);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  height: 100px;
+  text-align: center;
+}
+.table_left {
+  text-align: center;
+  background-color: var(--main_color4);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  height: 240px;
+}
+.table_left .tables::-webkit-scrollbar {
+  width: 0.2em;
+}
+.table_left .tables {
+  text-align: center;
+  height: 180px;
+  padding: 1rem 0rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
